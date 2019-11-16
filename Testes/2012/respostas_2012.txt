@@ -1,0 +1,11 @@
+1- d (10x maior)
+2- b
+3- b (não há canal de retorno pq não há bidirecionalidade)
+4- b
+5- b
+6- c
+7- d
+8- d (0,1 segundos)
+9- c
+10-a
+11- 50MHz 
