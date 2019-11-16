@@ -1,0 +1,39 @@
+1- b
+2- b
+3- a
+4- d
+5- a?
+6- ? Penso que não demos isto
+7- b (Comprimento de onda = Velocidade / Frequência)
+8- b
+9- c
+10-d
+11- Resposta : 0,1 segundos
+	Resolução:
+
+	Dados:
+	FMáx:5KHZ = 5000Hz
+	bits/amostra = 8
+		Taxa_Amostragem = (amostras/segundo) = 2 * FMáx
+	<=> 	Taxa_Amostragem = 2*5000
+	<=>	Taxa_Amostragem = 10000Hz
+	
+	ENTÃO
+		Taxa_Amostragem = (amostras/segundo)
+	<=>	10 000 = (1000 / segundos)
+	<=>	segundos = 1000/10 000
+	<=> 	segundos = 0,1
+
+12- Resposta : 18MBytes
+	Dados:
+	duração= 30min = 1800 segundos
+
+	Resolução:
+		Taxa_transmição = (amostras/segundo)*(bits/amostra)
+	<=>	Taxa_transmição = 10 000 * 8 
+	<=>	Taxa_transmição = 80 000 bits por segundo = 80kbps
+	
+		Tamanho = (amostras/segundo)*(bits/amostra)*duração (EM BYTES)
+		80 000bits por segundo = 80 000/8 = 10 000Bytes por segundo
+	ENTÃO
+		Tamanho = 10 000  * 1800 = 18 000 000Bytes = 18MBytes
