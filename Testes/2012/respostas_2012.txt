@@ -8,4 +8,14 @@
 8- d (0,1 segundos)
 9- c
 10-a
-11- 50MHz 
+11- Resposta: 5MHz 
+	Resolução:
+		Tamanho = (bits/amostra)*(amostras/segundo)*duração 	(queremos descobrir as amostras/segundo)
+	<=>	100MB = 8 * x * 10					(100MB -> 800Mbits -> 800 000 000bits)
+	<=>	x = 800 000 000/8*10 = 10 000 000 amostras por segundo = Taxa_amostragem
+	
+		Taxa_amostragem = Frequência_Máxima*2
+	<=>	10 000 000 = FMáx * 2
+	<=> 	FMáx = 10 000 000/2
+	<=> 	FMáx = 5 000 000Hz 
+	<=> 	FMáx = 5 MHz
