@@ -7,7 +7,16 @@
 7- d
 8- d (0,1 segundos)
 9- c
-10-a
+10-a Resolução:
+		
+	A altura máx são 10 km , mas a unidade de medida são centímetros! Logo para sabermos quantos caratéres são necessários temos que ver quantos centímetros é que 10km têm. 1km = 1000m -> 1m = 100cm -> então 1km = 100 000cm
+Então 10km = 1 000 000cm (7 caratéres)
+	Cada caratére precisa de 8bits para ser enviado. Logo 7*8 = 56bits.
+	Estes 56 bits representam a quantidade de bits necessária por atualização. Ou seja, 56bits/minuto
+	Mas a unidade de medida são bits/segundo. 1 minuto tem 60 segundos logo: 56/60 < 1 (apróx 0,9 com calculadora).
+	Ou seja, são precisos 0,9 (<1) bits/segundo 
+
+
 11- Resposta: 5MHz 
 	Resolução:
 		Tamanho = (bits/amostra)*(amostras/segundo)*duração 	(queremos descobrir as amostras/segundo)
