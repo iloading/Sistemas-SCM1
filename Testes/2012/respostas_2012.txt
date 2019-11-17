@@ -1,30 +1,34 @@
 1- d (10x maior)
 2- b
-3- b (não há canal de retorno pq não há bidirecionalidade)
+3- b (nÃ£o hÃ¡ canal de retorno pq nÃ£o hÃ¡ bidirecionalidade)
 4- b
 5- b
 6- c
 7- d
 8- d (0,1 segundos)
 9- c
-10-a Resolução:
+10-a ResoluÃ§Ã£o:
 		
-	A altura máx são 10 km , mas a unidade de medida são centímetros! Logo para sabermos quantos caratéres são necessários temos que ver quantos centímetros é que 10km têm. 1km = 1000m -> 1m = 100cm -> então 1km = 100 000cm
-Então 10km = 1 000 000cm (7 caratéres)
-	Cada caratére precisa de 8bits para ser enviado. Logo 7*8 = 56bits.
-	Estes 56 bits representam a quantidade de bits necessária por atualização. Ou seja, 56bits/minuto
-	Mas a unidade de medida são bits/segundo. 1 minuto tem 60 segundos logo: 56/60 < 1 (apróx 0,9 com calculadora).
-	Ou seja, são precisos 0,9 (<1) bits/segundo 
+	A altura mÃ¡x sÃ£o 10 km , mas a unidade de medida sÃ£o centÃ­metros! Logo para sabermos quantos caratÃ©res sÃ£o necessÃ¡rios temos que ver quantos centÃ­metros Ã© que 10km tÃªm. 1km = 1000m -> 1m = 100cm -> entÃ£o 1km = 100 000cm
+EntÃ£o 10km = 1 000 000cm (7 caratÃ©res)
+	Cada caratÃ©re precisa de 8bits para ser enviado. Logo 7*8 = 56bits.
+	Estes 56 bits representam a quantidade de bits necessÃ¡ria por atualizaÃ§Ã£o. Ou seja, 56bits/minuto
+	Mas a unidade de medida sÃ£o bits/segundo. 1 minuto tem 60 segundos logo: 56/60 < 1 (aprÃ³x 0,9 com calculadora).
+	Ou seja, sÃ£o precisos 0,9 (<1) bits/segundo 
 
 
 11- Resposta: 5MHz 
-	Resolução:
-		Tamanho = (bits/amostra)*(amostras/segundo)*duração 	(queremos descobrir as amostras/segundo)
-	<=>	100MB = 8 * x * 10					(100MB -> 800Mbits -> 800 000 000bits)
-	<=>	x = 800 000 000/8*10 = 10 000 000 amostras por segundo = Taxa_amostragem
+	ResoluÃ§Ã£o:
+		Tamanho = (bits/amostra)*(amostras/segundo)*duraÃ§Ã£o 	(queremos descobrir as amostras/segundo)
+	<=>	100MB = 8 * x * 10					
 	
-		Taxa_amostragem = Frequência_Máxima*2
-	<=>	10 000 000 = FMáx * 2
-	<=> 	FMáx = 10 000 000/2
-	<=> 	FMáx = 5 000 000Hz 
-	<=> 	FMáx = 5 MHz
+	!!!! ISTO ESTÃ ERRADO PORQUE ESTAMOS A CALULAR MEMÃ“RIA (100MB -> 800Mbits -> 800 000 000bits)
+	MANEIRA CORRETA : (100MB -> 800Mbits -> 800Mbits*1024*1024 bits = 838860800 bits)
+	
+	<=>	x = 838860800/8*10 = â€­10Â 485Â 760â€¬ amostras por segundo = Taxa_amostragem
+	
+		Taxa_amostragem = FrequÃªncia_MÃ¡xima*2
+	<=>	 10Â 485Â 760 = FMÃ¡x * 2
+	<=> 	FMÃ¡x =  10Â 485Â 760/2
+	<=> 	FMÃ¡x = â€­5Â 242Â 880â€¬ Hz 
+	<=> 	FMÃ¡x = 5,24 MHz 
