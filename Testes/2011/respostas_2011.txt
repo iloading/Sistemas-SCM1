@@ -37,4 +37,4 @@
 		80 000bits por segundo = 80 000/8 = 10 000Bytes por segundo
 	ENTÃO
 		Tamanho = 10 000  * 1800 = 18 000 000Bytes
-		18 000 000Bytes / 1024 / 1024 = 17,2 MBytes // Crédito para o Zabrizuca Maroto , tem que se dividir por 1024 (não por 1000) visto que estamos a falar de tamanho e não velocidade!
+		18 000 000Bytes / 1024 / 1024 = 17,2 MBytes // Crédito para a Sara e para o Zabrizuca Maroto , tem que se dividir por 1024 (não por 1000) visto que estamos a falar de tamanho e não velocidade!
