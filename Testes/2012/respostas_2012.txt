@@ -17,7 +17,7 @@ Então 10km = 1 000 000cm (7 caratéres)
 	Ou seja, são precisos 0,9 (<1) bits/segundo 
 
 
-11- Resposta: 5MHz 
+11- Resposta: 5,24MHz 
 	Resolução:
 		Tamanho = (bits/amostra)*(amostras/segundo)*duração 	(queremos descobrir as amostras/segundo)
 	<=>	100MB = 8 * x * 10					
