@@ -4,7 +4,7 @@
 4- d
 5- a? Possivelmente d) segundo uns resumos que a Clara enviou. Diz que foi a BBC a primeira a utilizar. Possivelmente c) - O Mota relembrou, e bem, que o prof na aula disse que a equipa dele tinha sido a primeira a desenvolver e numa apresentação à PT (MEO) tinha sido recusado. E passado uns tempos roubram-lhe a ideia. 
 6- ? Penso que não demos isto
-7- a (Comprimento de onda = Velocidade / Frequência) !! Obrigado ao preto atento a.k.a Cá ! A pergunta refere-se à primeira onda (F). A onda com 2F é que tem o comprimento de onda 2x menor que a primeira. (ERRADO - a resposta que estava antes era a b )
+7- a (Comprimento de onda = Velocidade / Frequência)  A pergunta refere-se à primeira onda (F). A onda com 2F é que tem o comprimento de onda 2x menor que a primeira.
 8- b
 9- c
 10-d
@@ -37,4 +37,4 @@
 		80 000bits por segundo = 80 000/8 = 10 000Bytes por segundo
 	ENTÃO
 		Tamanho = 10 000  * 1800 = 18 000 000Bytes
-		18 000 000Bytes / 1024 / 1024 = 17,2 MBytes // Crédito para a Sara e para o Zabrizuca Maroto , tem que se dividir por 1024 (não por 1000) visto que estamos a falar de tamanho e não velocidade!
+		18 000 000Bytes / 1024 / 1024 = 17,2 MBytes // tem que se dividir por 1024 (não por 1000) visto que estamos a falar de tamanho e não velocidade!
